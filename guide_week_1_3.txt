@@ -28,3 +28,29 @@ instalamos el zi q este en la lectura (despues del vid), alli descomprmimos y va
 la carpeta conFusion, vemos q ya esta el package.json ademas de los scripts para el lite server asi 
 q en terminal solo tenemos que: 
 
+se pone en el gitignore la carpeta node_modules 
+
+ya luego se inicializa el repo 
+
+ahora vamos a descargar bootstrao en repo con el comando  
+
+npm install bootstrap@4.00 --save
+
+y en esto nos dice que debemos tmbn instalar jquery y poppr.js  por lo que: 
+
+npm install jquery@3.3.1 popper.js@1.12.9 --save
+
+mirar en la carpeta node_modules la subcarpeta bootstrap (solo se ve en explorador de archivos,
+no se ve en VSCode)
+
+ya dentro de la carpeta de bootstrap, accedemos a la carpeta dist en la que hay dos carpetas una css y la otra js 
+
+en esos variovemos archivos, ahora copiamos el codigo q esta siguiente al video 
+
+y vemos un link q relaciona al archivo a uno de los archivos q vimos antes 
+
+justo despues de footer pegamos otras asociaciones a jquery, popper y uno js en la subcarpeta 
+bootstrap q habiamos visualizado con anterioridad 
+
+guardondo el archivo vemos algunos cambios en nuestro archivo html, por ejemplo, notamos que  
+la fuente cambia, bootstrap usa por defecto Helvetica neue 
