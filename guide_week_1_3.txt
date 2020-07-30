@@ -5,7 +5,8 @@ git status
 git add * 
 git commit -m "message"
 git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
-
+git log --oneline
+git checkout <commit> <archivo>
 
 Instructions
 
@@ -54,3 +55,8 @@ bootstrap q habiamos visualizado con anterioridad
 
 guardondo el archivo vemos algunos cambios en nuestro archivo html, por ejemplo, notamos que  
 la fuente cambia, bootstrap usa por defecto Helvetica neue 
+
+algunos enlaces: 
+https://www.keycdn.com/blog/frontend-frameworks
+https://getbootstrap.com/docs/4.0/content/typography/
+

@@ -1,0 +1,64 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento
+
+1. Responsive design  
+
+toda pag web q se hace debe ser adaptable a todos los dispositivos , cel pc, tablets y a diferentes resoluciones  
+
+por eso es necessario un viewport 
+
+paa el diesño web, es recomendado comenzar mirando el diseño desde lo movil e irlo espandiendo a lo que seria un pc 
+
+Los principios del diseño responsive, estan basados en 3 principios: 
+el primer un sistema de cuadruicula defnido 
+el segundo adaptacion de imagenes  
+y lo que son los mediaqueries (son como un patron de comportamiento dependiendo de los tamaños que se manejan en cada momento )
+
+2. Bootstrap Grid System 
+
+bootstrap aprovecha el flexbox de css para el diseño responsive
+
+tenemos que la clase container es responsive frente al tamaño de pantalla 
+
+a los div de este contenedor podemos tenerlos en clases row 
+
+y dentro de esas row podemos organizar el contenido mediante el uso de columnas  
+
+bootstrap pone 5 clases a nuestra disposicion para diferentes tamaños de pantalla por defecto: 
+sm -> small 
+md -> medium 
+lg -> large 
+xl -> extra large 
+
+cada row en drid de bootstrap esta dividido en 12 columnas 
+
+use .com-* , col-sm-* , col-md-* , .col-lg-*parda definir tamaños de columna  
+
+se puede jugar con esto teniendo en cuenta q si no se especifica el tamaño 
+<div class="col-sm"> , se reparten las columnas, pero tambien se puede especificar <div class="col-sm-6">
+
+bootstrap tiene unos tamaños definidos para cada una de las dimensiones por defecto, (creo q se pueden modificar, pero en este curso no se va a hacer)
+
+
+para el ordenemiento podemos usar: 
+<div class "col-sm-7 order-sm-first">
+<div class "col-sm-5 order-sm-last">
+
+lo anterior ejemplo se va a ver la de 7 a la izq y 5 a la der, en pantallas small, medium y large 
+PERO en las extra small la de 7 queda abajo y la de 5 arriba 
+
+LAS DIAPOSITIVAS DE BOOTSTRAP-GRID nos muestra mas configuraciones, ademas de las que podemos obtener
+de la pagina de bootstrap 
+
