@@ -1,0 +1,30 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento
+
+1. Front-End web UI Frameworks 
+
+Sabemos q para nuestra sitio, si solo usamos HTML, CSS , y Javascript van a haber muchos conjuntos similares 
+de estilos y funciionalidades para otros sitios q se van a hacer  estos componentes con un marco 
+
+Bootstrap es el front-end UI framework mas popular
+
+los frameworks tienen utilidades en lo eue es el diseño responsive, compatilibildad en diversos navegadores 
+ademas de community support 
+
+2. Getting Started with Bootstrap 
+
+instalamos el zi q este en la lectura (despues del vid), alli descomprmimos y vamos a trabajar con 
+la carpeta conFusion, vemos q ya esta el package.json ademas de los scripts para el lite server asi 
+q en terminal solo tenemos que: 
+
