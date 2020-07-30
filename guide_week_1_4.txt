@@ -62,3 +62,7 @@ PERO en las extra small la de 7 queda abajo y la de 5 arriba
 LAS DIAPOSITIVAS DE BOOTSTRAP-GRID nos muestra mas configuraciones, ademas de las que podemos obtener
 de la pagina de bootstrap 
 
+3. Exercise responsive design ando bootstrap 
+
+Usamos las clases de container y dento una row
+nuevo: se uso la clase "jumbutron" que vemos que le da un espaciado al texto tanto a la izq como arriba y abajo ademas de que ponde un fondo gris por defecto, ya dentro se pone conntainer
