@@ -62,7 +62,24 @@ PERO en las extra small la de 7 queda abajo y la de 5 arriba
 LAS DIAPOSITIVAS DE BOOTSTRAP-GRID nos muestra mas configuraciones, ademas de las que podemos obtener
 de la pagina de bootstrap 
 
-3. Exercise responsive design ando bootstrap 
+3. Exercise responsive design and bootstrap 
 
 Usamos las clases de container y dento una row
 nuevo: se uso la clase "jumbutron" que vemos que le da un espaciado al texto tanto a la izq como arriba y abajo ademas de que ponde un fondo gris por defecto, ya dentro se pone conntainer
+
+
+se agregaron lo que fueron las reparticiones de columna en diversos tamaños 
+
+4. Exercise responsive design and bootstrap , part 2 
+
+se van a hacer estilos personaliazdos con css 
+
+al listado de links se le va a agregar class="list-unstyled" para que este sin viñetas
+
+entre los estilos se usa jumbotron q este se va a sumar a las propiedades del jumbotron de bootstrap 
+
+Ademas se le va a agragar una alineacion vertical a las row (osea verticalmente), esto en 
+los row-content 
+
+ademas se va a hacer una alineacion horizontal en el copyright
+el .address del css no se aplico en el html 
