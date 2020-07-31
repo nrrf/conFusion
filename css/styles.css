@@ -33,3 +33,9 @@
     margin: 0px;
     color: black;
 }
+
+@media (max-width: 575px) {
+    .desaparece {
+        display: none;
+    }
+}
