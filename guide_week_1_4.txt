@@ -82,4 +82,14 @@ Ademas se le va a agragar una alineacion vertical a las row (osea verticalmente)
 los row-content 
 
 ademas se va a hacer una alineacion horizontal en el copyright
-el .address del css no se aplico en el html 
+el .address del css no se aplico en el html: 
+
+algunos enlaces interesantes: 
+
+graficos :
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid
+
+Ilustracion de meduaquery: 
+
+https://mediaqueri.es/
