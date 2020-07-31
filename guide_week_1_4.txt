@@ -85,6 +85,8 @@ ademas se va a hacer una alineacion horizontal en el copyright
 el .address del css no se aplico en el html: 
 
 algunos enlaces interesantes: 
+grid: 
+https://mediaqueri.es/
 
 graficos :
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
