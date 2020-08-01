@@ -1,0 +1,28 @@
+1. Navigation and navigation bar 
+
+La forma de navegar como se hiso en confusion es una manera poco recomendada  
+
+Por lo que se necesita de un metodo mas intuitivo 
+Por lo general un sitio web se maeja a taves de una jerarquia 
+
+no tienen que ser engorrosa esta navegacion, y usar terminos bien descriptivos para las etiquetas
+
+2. Exercise: Navbar and breadcrumbs 
+
+vamos a ver los coponentes importantes que se tienen de bootstrap para la navegacion: 
+navbar y breadcrumbs
+
+se crea etiqueta nav y adentro la clase navbar con espedificaciones de tema expand que es para comprimir o colapsara (creo) esta barra para tamaños xs y sm y se añadira bg de color primario de bootstrap y se le añadira fixed-top para q a pesar de que se haga scroll en la pagina siempre este arriba el navbar 
+
+para hacer una barra de navegacion responsive vamnos a hacer un boton q nos muestre los items cuando se esta en tamaños de pantalla xs y sm 
+
+cuando se hace el boton para desplegar los link, se estan usando componentes de javascript en bootstrap 
+
+el #Navbar en data-target hace refrencia a un id, que en este caso se referencia mas adelante comó
+id="Navbar"
+
+
+Se usa un atributo en css en body de z-index, este hace referencia a la progundidad, para mas info: 
+https://www.youtube.com/watch?v=V-DMoogk-3Y
+
+ademas se agrega breadcrumb en aboutus.html

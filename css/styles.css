@@ -28,10 +28,20 @@
 
 /* esto se va a graegar de manera adicional al jubutron q se tenia de bootstrap*/
 
-.address {
+address {
     font-size: 80%;
     margin: 0px;
     color: black;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    /*propiedades adicionales al que viene por defecto de bootstrap*/
+    background-color: #900c3f;
 }
 
 @media (max-width: 575px) {
