@@ -26,3 +26,31 @@ Se usa un atributo en css en body de z-index, este hace referencia a la progundi
 https://www.youtube.com/watch?v=V-DMoogk-3Y
 
 ademas se agrega breadcrumb en aboutus.html
+
+3. Icon fonts  
+Ejemplo Font Awesome (usado en adobe xd)
+en CSS <i class="fa fa-phone"> </i>
+
+vamos a ver el uso de bootstrap-social.css 
+
+4. Exercise Icon Fonts  
+
+En este ejercico se va a descargar font awesome y se va a usar en el proyecto 
+y tmbn se va a descargar bootstrap-social 
+
+para instalar fonot awesome usamoe el comando: 
+
+npm install font-awesome@4.7.0 --save
+
+Esto nos lo va a poner tanto en nuestra carpeta de node-modueles como en el package.json 
+
+para instalar bootstrap social: 
+
+npm install bootstrap-social@5.1.1 --save
+
+igualmente los relacionamos mediante el link en head tanto en index.html como en aboutus.html 
+
+se agregan icons tanto en la parte del navbar como en el footer de las paginas
+
+los iconos se pueden agregar (al menos generalmente con 2 etiquetas): span e i
+
