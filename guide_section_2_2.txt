@@ -1,0 +1,9 @@
+1. User input
+
+En esta seccion se va a ver lo que es el uso de botones  y forms (formularios)
+
+2. Buttons 
+
+Primero se descarga la base del ejercicio q es el contactus, esto se puede descargar en el rar de la seccion 
+
+vamos a modificar donde esta el texto inicial de Button group goes here 

@@ -54,3 +54,8 @@ se agregan icons tanto en la parte del navbar como en el footer de las paginas
 
 los iconos se pueden agregar (al menos generalmente con 2 etiquetas): span e i
 
+enlace de interes: 
+https://www.coursera.org/learn/bootstrap-4/supplement/Gbp6X/navigation-and-navigation-bar-additional-resources 
+
+en al anterior se encuentran tmbn la documentacion oficial de lo que es el navbar ademas de los breadcrumbs  
+
