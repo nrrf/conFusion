@@ -1,0 +1,12 @@
+Tables: 
+
+Bootstrap provee muchos tipos de tablas, tales como: 
+
+table-striped, table-bordered , table-hover, table-sm, table-responsive 
+
+Ademas de card, que tmbn funcionan como otra manera de mostrar contenido. 
+
+el striped son las rayas que hay en laas filas en las q estan intercaladas entre las sombreadas y 
+las no sombreadas 
+
+dl = descriptive list

@@ -12,4 +12,6 @@ vamos a modificar donde esta el texto inicial de Button group goes here
 
 vamnos a modificar donde esta el texto de Form goes here
 
-SE van a hacer inputs, checkbox,  de eleccion y un text area
+SE van a hacer inputs, checkbox,  de eleccion y un text area 
+
+Para mas info: https://www.coursera.org/learn/bootstrap-4/supplement/ePph0/user-input-additional-resources
