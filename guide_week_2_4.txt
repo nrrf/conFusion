@@ -1,0 +1,27 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento
+
+1. Images and Media 
+
+Vemos como hacer un card que incluya una imagen al igual que media(multimedia) tmbn con imagen  
+Ademas de comohacer la insercion de enlace de video (me imagino q con visualizacion de youtube)
+
+2. Images and Media (Exercise)
+
+Como primer paso descargar zip del ejercicio y pegarlo en la carpeta de nuestro archivo
+
+Comenzamos poniendo el logo, se hace en los 3 html
+En las imagenes se escribe la clase img-fluid, con lo cual hacemos que la imagen sea responsive 
+

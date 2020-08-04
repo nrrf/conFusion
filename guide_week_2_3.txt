@@ -1,0 +1,29 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento
+
+Tables: 
+
+Bootstrap provee muchos tipos de tablas, tales como: 
+
+table-striped, table-bordered , table-hover, table-sm, table-responsive 
+
+Ademas de card, que tmbn funcionan como otra manera de mostrar contenido. 
+
+el striped son las rayas que hay en laas filas en las q estan intercaladas entre las sombreadas y 
+las no sombreadas 
+
+dl = descriptive list
+
+Para mas info: https://www.coursera.org/learn/bootstrap-4/supplement/V6S2V/displaying-content-additional-resources
