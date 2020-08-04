@@ -1,0 +1,28 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento
+
+Assignment: 
+
+Task 1:
+en la primera tarea en index se va a realizar un card con un formulario dentro, el cual debe incluir 
+un check de opcion circular y 2 textfield continuos, la card desde tamaño small debe ser de 8ncolumnas y debe estar centrado,
+mientras que para tamaños Xs va a ocuoar toda la pantalla  
+
+Task 2: 
+Uso de etiquetas y poner una imagen a la derecha  
+
+Task 3: 
+Añadir un boton en el row de bumbutron para el reserve table, ademas cuando da click en el boton de reserva debe llevarlo al formulario aue  
+esta en la parte de abajo 

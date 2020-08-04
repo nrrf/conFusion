@@ -27,3 +27,5 @@ Lo basico para agregar otras clases poara alertas son:
 
 2. Alerting users Exercise 
 
+Para mas info de este tema: 
+https://www.coursera.org/learn/bootstrap-4/supplement/CBRlz/alerting-users-additional-resources 
