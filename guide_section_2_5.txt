@@ -1,0 +1,29 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento
+
+1. Alerting Users 
+
+Bootstrap tiene muchos componentes para mantener informados a los usuarios  
+
+entre esos elementos, tenemos lo que son badges, alert, error, warning messages, y barras de progreso 
+
+Los badges (insignias) tienen informacion que busca atraer la atencion de los visitantes  
+
+Lo basico para agregar otras clases poara alertas son: 
+
+<div class="alert alert-*"></div>
+
+2. Alerting users Exercise 
+
