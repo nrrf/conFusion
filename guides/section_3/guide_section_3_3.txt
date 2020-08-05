@@ -1,0 +1,18 @@
+1. Collapse and Accordion
+
+Se va a ver uno de los complementos mas utiles en bootstrap, copllapse 
+hemos visto su aplicacion en la barra de navegacion, lo miraremos y analizaremos en mas detalle, y ser va 
+a ver lo que es el acordeon, que hace uso del collapse para su funcionamiento 
+
+El collapse es una forma muy util de re revelar y quitar contenido 
+
+el alterar (toggling) contenido requiere del uso de un boton o un link que sirva de trigger del toggle 
+
+
+AL Accordion se va a usar en remplazo de lops tabs que se hicieron anteriormente 
+
+2. Exercise: Accordion
+
+Sigue habiendo problemas para q funcione, para mas info: 
+
+https://www.coursera.org/learn/bootstrap-4/supplement/GzzMf/hide-and-seek-additional-resources

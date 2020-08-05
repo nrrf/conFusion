@@ -25,3 +25,6 @@ lo mismo si no que en los pills se le da un cierto estilo a las pestañas o tabs
 
 se va a usar nav,se van a hacer tabs, pero sabemos q las pills tienen el mismo enfoque  
 
+Hubo problemas con el despliegue de los demas tabs  
+
+Para mas info: https://www.coursera.org/learn/bootstrap-4/supplement/vxnqX/tabs-and-tabbed-navigation-additional-resources
