@@ -1,0 +1,28 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento 
+
+1. Bootstrap JavaScript Components 
+
+Como hemos visto bootstrap maneja estilo ya definids como los de CSS 
+vimos q generalmente los etiquetas que aplicaban bootstrap comenzaban con un clase base como btn 
+a la cual ya luego se le aplicada otras caracteristicas como btn-primary pára el color 
+
+Basicamente Javascript es muy grande de esto basicamente se empaca en la biblioteca de JQuery, pero se empaca mas 
+en lo que es Bootstrap JS components  
+
+se va a usar mumcho el data-* attributes (exj: data-toggle, data-spy)
+
+Para mas info de componentes de Bootstrap con soporte de Javascript: https://www.coursera.org/learn/bootstrap-4/supplement/nQrDn/bootstrap-javascript-components-additional-resources 
+

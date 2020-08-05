@@ -1,0 +1,27 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento 
+
+1. Tabs, Pills and tabbed navigation 
+
+Vamos a usar pestañas y pills de navegacion, para una estructura de navgacion de nuestro sitio web,
+ademas de la organizacion que da. 
+
+Por lo que se encerran varias pestañas de contenido en un sitio html en este caso, basicalmente los tabs y los pills son 
+lo mismo si no que en los pills se le da un cierto estilo a las pestañas o tabs 
+
+2. Exercise: Tabs  
+
+se va a usar nav,se van a hacer tabs, pero sabemos q las pills tienen el mismo enfoque  
+
