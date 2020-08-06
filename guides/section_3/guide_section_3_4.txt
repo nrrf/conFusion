@@ -1,0 +1,42 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento  
+
+1. Tooltips, Popovers and modals  
+
+Se va a ver como mostrar info a los usuarios superponiendo el contenido de su pagina web  
+
+Orden en flexibilidada (de menor a mayor): 
+
+Tooltip -> Popover -> Modal 
+
+el Modla contiene mas info detallada y puede ser presentado como tooltip y como popovers 
+
+el Modal contiene header, body and footer  
+
+el modal puede usar Bootstrap grid en el cuerpo para organizar el contenido 
+
+un ejemplo de modal es cuando se da click en iniciar sesion en la pagina de Coursera 
+
+2. Tooltips and Modal - Exercise 
+
+Vamos primero a agregar un tooltip en el boton de reserve table 
+
+bootstrap recomienda que todo el codigo relacionado a modal se coloque en la parte 
+superior de su pagina  
+
+un uso q no se va a ver de modal es hacer click en una imagen y que se vea mas grande 
+Para mas info: 
+
+https://www.coursera.org/learn/bootstrap-4/supplement/SRDxs/revealing-content-additional-resources
