@@ -1,0 +1,31 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento  
+
+1. Carousel
+
+el carousel es un componente que nos permite la cinclusion de sldeshadow con presentaciones  
+
+y permita copntrol manual para las diapositivas, hecieno scroll en estos  
+
+2. Exercise: Carousel 
+
+se va a agregar carousel en index ay asi kjirar como funciona 
+
+se agregara el carusel (tiene un pasado de imagenes automatico)
+
+ademas a esto se va a agregar lo que es 
+
+para mas info: 
+https://www.coursera.org/learn/bootstrap-4/supplement/u1Oc8/carousel-additional-resources
