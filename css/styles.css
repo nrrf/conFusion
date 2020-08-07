@@ -71,3 +71,11 @@ body {
     left: 0;
     min-height: 300px;
 }
+
+.btngreen {
+    background: #24a19c;
+}
+
+.btnred {
+    background: #cf1b1b;
+}

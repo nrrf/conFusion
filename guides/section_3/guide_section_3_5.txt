@@ -29,3 +29,8 @@ ademas a esto se va a agregar lo que es
 
 para mas info: 
 https://www.coursera.org/learn/bootstrap-4/supplement/u1Oc8/carousel-additional-resources
+
+Assignment: 
+
+SE realizaron los cambios agregando el modal y el grupo de botones en el formulario, 
+ademas se borro el reserve table que estaba antes 
