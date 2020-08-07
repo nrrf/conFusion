@@ -1,0 +1,47 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento   
+
+1. CCS Preprocessors: Less and Sass 
+
+El tema de lass y Sass esta mas relacionado a lo que es CSS, pero hay que verlo en curso ya que 
+Bootstrap es construido usando Sass para su fuente 
+
+sabemos que CSS es para los estilos, pero a veces queda un poco limitado, nos damos cuente que CSS no 
+tiene lo que ss espera de un lenguaje de programacion como variables, funciones y demas 
+
+esto hace que el codigo sea engorroso, y mantenerlo se hace engorroso, por lo que para esto tenemos los preprocesadores 
+
+Hay es donde juegan un papel los preprocesadores 
+
+lo que nos proporcionan estos lenguajes de programacion es mas sintaxis de lenguaje de programacion 
+
+ya que Bootstra usa Sass es necesario si se va a hacer una modificacion en Bootstrap, manejar lo que es el codigo con Sass 
+
+Bootstrap 3 usaba Less, pero Bootstrap 4 miggro al uso de Sass 
+
+Sass y Less son similares en terminos de capacidad y en la forma en que se define su sintaxis  
+
+las caracteristicas de preprocesadore de CSS, es que  
+
+tienen variables, selectores de anidamientos, mixings y funciones y expresiones 
+
+Cuando se use Sass se va a usar Scss que es la version mas popular de Sass  
+
+basicamente, cuando trabajamos en html tenemos anidados con respecto a los div, es por ello, que con los preprocesadores, tenesmo la ventaja  
+de que los podemos manejar tambien de forma anidada y con variables q pudimmos haber definido con anterioridad 
+
+lo que se va a hacer en el ejercicio. 
+- simple ejercicio escrito en Less 
+- Generar el correspondiente archivo CSS, usando el lessc compilador 
