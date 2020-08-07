@@ -1,0 +1,68 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento  
+
+1. Bootstrap and JQuery 
+
+Como hemos visto hay hay una seri de compponentes interesantes basados en javascript,
+estos estan habilitados con el uso de JQuery como soporte, muchos de estos componentes estanescritos en JQuery
+
+si se quiere mas flexibilidad en los componentes javascript, hay q complementarlo con JQuery 
+
+JQuery es una biblioteca de Javascript, que que permite manipulacin en POR EJEMPLO: 
+manipulacion HTML,/DOM CSS 
+metodos de eventos en HTML 
+animaciones
+AJAX para interactuar con lo que seria el lado del servidos 
+
+
+sintaxis de JQuery: 
+
+$:(selector).action() 
+
+$: define y accede a la biblioteca de JQuery 
+- (selector): para consultar y encontrat elementois HTML 
+- action(): accion que debe ser realizada por lo(s) elemento(s)
+- ejemplo: 
+$("p"),hide() 
+$("#mycarousel").carousel('pause')
+
+Con respecto a los JQuery selectors:
+puden ser un elemento, ejemplo: "p","button"
+pueden usar un #id, ejemplo: "#myCarousel"
+pueden ser una clase: ejemplo ".btn" , ".btn.btn-default"
+peden ser un atributo, ejemplo: "[href]","[data-toggle="tooltip"]"
+pueden ser el elemento actual: $(this)
+y muchos mas... 
+
+con respecto a los JQuery events: 
+
+las interacciones en la pagina web, pueden ser causadas por DOM eventos: 
+
+Mouse: click, doubleclick, mouseenter, mouseleave 
+Keyboard: keypress, keydow, keyup 
+Form: submit, change, focus, blur 
+Document, Window: load, resize, scroll, unload 
+teniendo metodos de evento como: ready(),click(),dbclick(),mousedown(),on() 
+
+2. Exercise: Bootstrap and JQuery 
+
+se van a añadir 2 botones al carousel para pausarlo o continuarlo en su transicion 
+se van a activar dichos botones usando JavaScript 
+
+pasos: 
+1. Adding the carousel control buttons
+2. Addinng CSS class for the buttoms
+3. Adding Javascript Code 
+
