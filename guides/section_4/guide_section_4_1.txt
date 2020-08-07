@@ -66,3 +66,10 @@ pasos:
 2. Addinng CSS class for the buttoms
 3. Adding Javascript Code 
 
+3. Exercise: More Bootstrap and JQuery 
+En este ejercicio lo que vamos a hacer del anterior un solo boton que pueda pausar y tambier reanudar el carousel
+Pasos: 
+1. Modifying the Carousel Control Buttons 
+2. Modificacion del Javascript
+
+para mas info: https://www.coursera.org/learn/bootstrap-4/supplement/6Ogtq/bootstrap-and-jquery-additional-resources
