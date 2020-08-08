@@ -1,0 +1,57 @@
+Commands git
+git init 
+git remote add origin (link repository)
+git status
+git add * 
+git commit -m "message"
+git push origin master -- force (en este caso porq no tengo en mi archivo el readme)
+git log --oneline
+git checkout <commit> <archivo>
+npm init 
+npm start 
+
+Instructions
+
+en la guia se incluye lo teorico 
+en el codigo en comentarios se incluye lo tecnico o de funcionamiento   
+
+1. Building and Deployment 
+
+el desarrollo web y el despliegue, implica muchas tareas repetitivas 
+necesitasmo contruir herramientas para automatizar las tareas  
+
+ello con diferente taresa para css y javascriot 
+
+uno de los objetivos de desarrollar sitio web es hacerlo publico 
+los pasos involucrados en la construccion de su sitio para el despliegu, es lo que llamamos 
+Building the distribution files (construir los archivos de distribucion) 
+
+2. NPM scripts 
+
+vamos a revisar nuestro package.jason para ver como hemos usado nuestros scripts npm 
+
+en esto podemos ver los scripts q estan ahi, como lo son start, test, lite, scss 
+
+Unos scripts eue tenemos son npm start, npm run .. 
+como npm run lite, npm run scss
+
+3. Exercise: NPM scripts Part 1 
+
+como vemos ya hay una serie de scripts q habiamos incluido en nuestro package.json 
+
+Pasos: 
+mover JS a un csript file   
+
+LO siguiente es instala modulos NPN para automatizar algunas tareas. 
+
+esta es para automatizar las cambios de scss a css
+
+npm install --save-dev onchange@3.3.0 parallelshell  
+
+y luego se agrega en cripts en package.json: 
+
+"watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+"watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+
+semas de cambios en start para que haga automaticamnete tanto la tares de compilar de scss a css como
+el lite-server 
