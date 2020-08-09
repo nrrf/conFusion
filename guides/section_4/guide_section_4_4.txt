@@ -53,5 +53,70 @@ y luego se agrega en cripts en package.json:
 "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
 "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
 
-semas de cambios en start para que haga automaticamnete tanto la tares de compilar de scss a css como
-el lite-server 
+demas de cambios en start para que haga automaticamnete tanto la tares de compilar de scss a css como
+el lite-server // estyo al final no lo hice, ya que me daba problemas debido a los problemas q tengo para pasar de scss a css 
+
+3. Exercise: NPM scripts Part 2 
+
+En este video ejercico se continua con el deployment de despliegue de la web page 
+
+esto para una mayor facilidad de descarga y renderizacion de los elementos 
+
+luego haremos una carpeta llamada dist, la cual contebndra lo que refiere a html, css y javascript, 
+y que estos simplemente se pueden copiar a el servidos web q aloja nuestro sitio web  
+
+Se van a añadir mas scripts para automatizar este proceso 
+
+Pasos: 
+1. Cleaning up a Distribution Folder 
+npm install --save-dev rimraf@2.6.2   // esto ayuda a limpiar este modulo fuera de una carpeta por completo
+
+lo siguiente es instalar un modulo npm para copiar archivos de fuentes de mis modulos de nodo 
+carpeta an mi carpeta de distribucion: 
+
+npm -g install copyfiles@2.0.0
+
+luego para ejecutar luego de cuadrar el script en package.json: 
+
+npm run copyfonts
+hay se crea una carpeta llamada dist  en la que tenemos los fontawesome 
+
+ahora para ell script limpio: 
+
+npm run clean 
+
+con el comando anterior se elimina la carpeta q dse habia creado denominada dist
+
+Ahora vamos a crear los archivos de distribucion restantes,
+
+se va a instalar un modulo de nodo llamado: imagemin-cli
+este lo eue va a hacer es tomar los archivos de imagen y los comprimira 
+por lo que se va a reducir la cantidad de datos que necesitan ser descargados para renderizar nuestra 
+pagina web  
+
+2. Compressing and minifying Images 
+
+npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
+
+Ahora configuramos el script en nuestro package.json 
+
+3. preparing the distribution folder 
+
+lo siguiente hace la transcripcion de mi a html y concatenar elcss, al igual que los archivos css y po
+nerlos en una carpeta 
+
+npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.07
+
+Para q sirva:
+npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin
+
+añadimos a package.json: 
+        "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+        "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
+
+y en la terminal escribimos
+
+npm run build
+
+para mas info: 
+https://www.coursera.org/learn/bootstrap-4/supplement/YF9i0/building-and-deployment-npm-scripts-additional-resources
